@@ -44,6 +44,10 @@ class Owner
     cats.each {|cat| cat.mood = "nervous"; cat.owner = nil}
   end
   
+  def list_pets
+    
+  end
+  
   def self.all 
     @@all 
   end
